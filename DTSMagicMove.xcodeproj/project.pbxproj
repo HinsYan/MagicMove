@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1925A9F61DE6771A005FD190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925A9F51DE6771A005FD190 /* AppDelegate.swift */; };
+		1925A9F81DE6771A005FD190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925A9F71DE6771A005FD190 /* ViewController.swift */; };
+		1925A9FB1DE6771A005FD190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1925A9F91DE6771A005FD190 /* Main.storyboard */; };
+		1925A9FD1DE6771A005FD190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925A9FC1DE6771A005FD190 /* Assets.xcassets */; };
+		1925AA001DE6771A005FD190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1925A9FE1DE6771A005FD190 /* LaunchScreen.storyboard */; };
+		1925AA0B1DE6771A005FD190 /* DTSMagicMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA0A1DE6771A005FD190 /* DTSMagicMoveTests.swift */; };
+		1925AA161DE6771A005FD190 /* DTSMagicMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA151DE6771A005FD190 /* DTSMagicMoveUITests.swift */; };
+		1925AA241DE67D67005FD190 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA231DE67D67005FD190 /* CollectionVC.swift */; };
+		1925AA261DE67D7C005FD190 /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA251DE67D7C005FD190 /* AlbumVC.swift */; };
+		1925AA2B1DE68855005FD190 /* MagicMoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA291DE68855005FD190 /* MagicMoveCell.swift */; };
+		1925AA2C1DE68855005FD190 /* MagicMoveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1925AA2A1DE68855005FD190 /* MagicMoveCell.xib */; };
+		1925AA2E1DE6E24A005FD190 /* DTSMagicMoveBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA2D1DE6E24A005FD190 /* DTSMagicMoveBase.swift */; };
+		1925AA311DE6E723005FD190 /* DTSMagicMoveGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA301DE6E723005FD190 /* DTSMagicMoveGeneral.swift */; };
+		1925AA351DE87D88005FD190 /* DTSMagicMoveAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925AA341DE87D88005FD190 /* DTSMagicMoveAlbum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1925AA071DE6771A005FD190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1925A9EA1DE6771A005FD190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1925A9F11DE6771A005FD190;
+			remoteInfo = DTSMagicMove;
+		};
+		1925AA121DE6771A005FD190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1925A9EA1DE6771A005FD190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1925A9F11DE6771A005FD190;
+			remoteInfo = DTSMagicMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1925A9F21DE6771A005FD190 /* DTSMagicMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTSMagicMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925A9F51DE6771A005FD190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1925A9F71DE6771A005FD190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1925A9FA1DE6771A005FD190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1925A9FC1DE6771A005FD190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1925A9FF1DE6771A005FD190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1925AA011DE6771A005FD190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1925AA061DE6771A005FD190 /* DTSMagicMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSMagicMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925AA0A1DE6771A005FD190 /* DTSMagicMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTSMagicMoveTests.swift; sourceTree = "<group>"; };
+		1925AA0C1DE6771A005FD190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1925AA111DE6771A005FD190 /* DTSMagicMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSMagicMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1925AA151DE6771A005FD190 /* DTSMagicMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTSMagicMoveUITests.swift; sourceTree = "<group>"; };
+		1925AA171DE6771A005FD190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1925AA231DE67D67005FD190 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		1925AA251DE67D7C005FD190 /* AlbumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumVC.swift; sourceTree = "<group>"; };
+		1925AA291DE68855005FD190 /* MagicMoveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicMoveCell.swift; sourceTree = "<group>"; };
+		1925AA2A1DE68855005FD190 /* MagicMoveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagicMoveCell.xib; sourceTree = "<group>"; };
+		1925AA2D1DE6E24A005FD190 /* DTSMagicMoveBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSMagicMoveBase.swift; sourceTree = "<group>"; };
+		1925AA301DE6E723005FD190 /* DTSMagicMoveGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSMagicMoveGeneral.swift; sourceTree = "<group>"; };
+		1925AA341DE87D88005FD190 /* DTSMagicMoveAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSMagicMoveAlbum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1925A9EF1DE6771A005FD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA031DE6771A005FD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA0E1DE6771A005FD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1925A9E91DE6771A005FD190 = {
+			isa = PBXGroup;
+			children = (
+				1925A9F41DE6771A005FD190 /* DTSMagicMove */,
+				1925AA091DE6771A005FD190 /* DTSMagicMoveTests */,
+				1925AA141DE6771A005FD190 /* DTSMagicMoveUITests */,
+				1925A9F31DE6771A005FD190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1925A9F31DE6771A005FD190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1925A9F21DE6771A005FD190 /* DTSMagicMove.app */,
+				1925AA061DE6771A005FD190 /* DTSMagicMoveTests.xctest */,
+				1925AA111DE6771A005FD190 /* DTSMagicMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1925A9F41DE6771A005FD190 /* DTSMagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				1925A9F51DE6771A005FD190 /* AppDelegate.swift */,
+				1925A9F71DE6771A005FD190 /* ViewController.swift */,
+				1925AA251DE67D7C005FD190 /* AlbumVC.swift */,
+				1925AA231DE67D67005FD190 /* CollectionVC.swift */,
+				1925AA2F1DE6E6CA005FD190 /* MagicMove */,
+				1925AA291DE68855005FD190 /* MagicMoveCell.swift */,
+				1925AA2A1DE68855005FD190 /* MagicMoveCell.xib */,
+				1925A9F91DE6771A005FD190 /* Main.storyboard */,
+				1925A9FC1DE6771A005FD190 /* Assets.xcassets */,
+				1925A9FE1DE6771A005FD190 /* LaunchScreen.storyboard */,
+				1925AA011DE6771A005FD190 /* Info.plist */,
+			);
+			path = DTSMagicMove;
+			sourceTree = "<group>";
+		};
+		1925AA091DE6771A005FD190 /* DTSMagicMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				1925AA0A1DE6771A005FD190 /* DTSMagicMoveTests.swift */,
+				1925AA0C1DE6771A005FD190 /* Info.plist */,
+			);
+			path = DTSMagicMoveTests;
+			sourceTree = "<group>";
+		};
+		1925AA141DE6771A005FD190 /* DTSMagicMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1925AA151DE6771A005FD190 /* DTSMagicMoveUITests.swift */,
+				1925AA171DE6771A005FD190 /* Info.plist */,
+			);
+			path = DTSMagicMoveUITests;
+			sourceTree = "<group>";
+		};
+		1925AA2F1DE6E6CA005FD190 /* MagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				1925AA2D1DE6E24A005FD190 /* DTSMagicMoveBase.swift */,
+				1925AA301DE6E723005FD190 /* DTSMagicMoveGeneral.swift */,
+				1925AA341DE87D88005FD190 /* DTSMagicMoveAlbum.swift */,
+			);
+			name = MagicMove;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1925A9F11DE6771A005FD190 /* DTSMagicMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925AA1A1DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMove" */;
+			buildPhases = (
+				1925A9EE1DE6771A005FD190 /* Sources */,
+				1925A9EF1DE6771A005FD190 /* Frameworks */,
+				1925A9F01DE6771A005FD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTSMagicMove;
+			productName = DTSMagicMove;
+			productReference = 1925A9F21DE6771A005FD190 /* DTSMagicMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1925AA051DE6771A005FD190 /* DTSMagicMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925AA1D1DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMoveTests" */;
+			buildPhases = (
+				1925AA021DE6771A005FD190 /* Sources */,
+				1925AA031DE6771A005FD190 /* Frameworks */,
+				1925AA041DE6771A005FD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1925AA081DE6771A005FD190 /* PBXTargetDependency */,
+			);
+			name = DTSMagicMoveTests;
+			productName = DTSMagicMoveTests;
+			productReference = 1925AA061DE6771A005FD190 /* DTSMagicMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1925AA101DE6771A005FD190 /* DTSMagicMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1925AA201DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMoveUITests" */;
+			buildPhases = (
+				1925AA0D1DE6771A005FD190 /* Sources */,
+				1925AA0E1DE6771A005FD190 /* Frameworks */,
+				1925AA0F1DE6771A005FD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1925AA131DE6771A005FD190 /* PBXTargetDependency */,
+			);
+			name = DTSMagicMoveUITests;
+			productName = DTSMagicMoveUITests;
+			productReference = 1925AA111DE6771A005FD190 /* DTSMagicMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1925A9EA1DE6771A005FD190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yantommy;
+				TargetAttributes = {
+					1925A9F11DE6771A005FD190 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VL5VJ9279S;
+						ProvisioningStyle = Automatic;
+					};
+					1925AA051DE6771A005FD190 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VL5VJ9279S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1925A9F11DE6771A005FD190;
+					};
+					1925AA101DE6771A005FD190 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VL5VJ9279S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1925A9F11DE6771A005FD190;
+					};
+				};
+			};
+			buildConfigurationList = 1925A9ED1DE6771A005FD190 /* Build configuration list for PBXProject "DTSMagicMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1925A9E91DE6771A005FD190;
+			productRefGroup = 1925A9F31DE6771A005FD190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1925A9F11DE6771A005FD190 /* DTSMagicMove */,
+				1925AA051DE6771A005FD190 /* DTSMagicMoveTests */,
+				1925AA101DE6771A005FD190 /* DTSMagicMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1925A9F01DE6771A005FD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925AA001DE6771A005FD190 /* LaunchScreen.storyboard in Resources */,
+				1925A9FD1DE6771A005FD190 /* Assets.xcassets in Resources */,
+				1925AA2C1DE68855005FD190 /* MagicMoveCell.xib in Resources */,
+				1925A9FB1DE6771A005FD190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA041DE6771A005FD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA0F1DE6771A005FD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1925A9EE1DE6771A005FD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925AA2B1DE68855005FD190 /* MagicMoveCell.swift in Sources */,
+				1925A9F81DE6771A005FD190 /* ViewController.swift in Sources */,
+				1925AA311DE6E723005FD190 /* DTSMagicMoveGeneral.swift in Sources */,
+				1925AA241DE67D67005FD190 /* CollectionVC.swift in Sources */,
+				1925AA2E1DE6E24A005FD190 /* DTSMagicMoveBase.swift in Sources */,
+				1925AA261DE67D7C005FD190 /* AlbumVC.swift in Sources */,
+				1925AA351DE87D88005FD190 /* DTSMagicMoveAlbum.swift in Sources */,
+				1925A9F61DE6771A005FD190 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA021DE6771A005FD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925AA0B1DE6771A005FD190 /* DTSMagicMoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1925AA0D1DE6771A005FD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1925AA161DE6771A005FD190 /* DTSMagicMoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1925AA081DE6771A005FD190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1925A9F11DE6771A005FD190 /* DTSMagicMove */;
+			targetProxy = 1925AA071DE6771A005FD190 /* PBXContainerItemProxy */;
+		};
+		1925AA131DE6771A005FD190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1925A9F11DE6771A005FD190 /* DTSMagicMove */;
+			targetProxy = 1925AA121DE6771A005FD190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1925A9F91DE6771A005FD190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1925A9FA1DE6771A005FD190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1925A9FE1DE6771A005FD190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1925A9FF1DE6771A005FD190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1925AA181DE6771A005FD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1925AA191DE6771A005FD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1925AA1B1DE6771A005FD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1925AA1C1DE6771A005FD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1925AA1E1DE6771A005FD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSMagicMove.app/DTSMagicMove";
+			};
+			name = Debug;
+		};
+		1925AA1F1DE6771A005FD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSMagicMove.app/DTSMagicMove";
+			};
+			name = Release;
+		};
+		1925AA211DE6771A005FD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DTSMagicMove;
+			};
+			name = Debug;
+		};
+		1925AA221DE6771A005FD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VL5VJ9279S;
+				INFOPLIST_FILE = DTSMagicMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BetterNet.DTSMagicMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DTSMagicMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1925A9ED1DE6771A005FD190 /* Build configuration list for PBXProject "DTSMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925AA181DE6771A005FD190 /* Debug */,
+				1925AA191DE6771A005FD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1925AA1A1DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925AA1B1DE6771A005FD190 /* Debug */,
+				1925AA1C1DE6771A005FD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1925AA1D1DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925AA1E1DE6771A005FD190 /* Debug */,
+				1925AA1F1DE6771A005FD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1925AA201DE6771A005FD190 /* Build configuration list for PBXNativeTarget "DTSMagicMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925AA211DE6771A005FD190 /* Debug */,
+				1925AA221DE6771A005FD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1925A9EA1DE6771A005FD190 /* Project object */;
+}
